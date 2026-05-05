@@ -28,7 +28,7 @@ import {
 } from 'app/(game)/components/unit-table';
 import { Text } from 'app/components/text';
 import { Alert } from 'app/components/ui/alert';
-import { Pagination } from 'app/components/ui/pagination.tsx';
+import { Pagination } from 'app/components/ui/pagination';
 
 const formatTroopAmount = (tribe: Tribe, troops: Troop[]) => {
   const tribeUnits = [...getUnitsByTribe(tribe), getUnitDefinition('HERO')];

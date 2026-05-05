@@ -78,7 +78,7 @@ const _RallyPointSimulator = lazyWithRetry(async () => ({
 const ResidenceLoyalty = lazyWithRetry(async () => ({
   default: (
     await import(
-      'app/(game)/(village-slug)/(village)/(...building-field-id)/components/components/residence/residence-loyalty.tsx'
+      'app/(game)/(village-slug)/(village)/(...building-field-id)/components/components/residence/residence-loyalty'
     )
   ).ResidenceLoyalty,
 }));
@@ -86,7 +86,7 @@ const ResidenceLoyalty = lazyWithRetry(async () => ({
 const ResidenceExpansion = lazyWithRetry(async () => ({
   default: (
     await import(
-      'app/(game)/(village-slug)/(village)/(...building-field-id)/components/components/residence/residence-expansion.tsx'
+      'app/(game)/(village-slug)/(village)/(...building-field-id)/components/components/residence/residence-expansion'
     )
   ).ResidenceExpansion,
 }));

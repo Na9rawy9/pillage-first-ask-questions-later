@@ -22,7 +22,7 @@ import { useServer } from 'app/(game)/(village-slug)/hooks/use-server';
 import { oasisAnimalFinderCacheKey } from 'app/(game)/constants/query-keys';
 import { ApiContext } from 'app/(game)/providers/api-provider';
 import { Icon } from 'app/components/icon.tsx';
-import { unitIdToUnitIconMapper } from 'app/components/icons/icons.tsx';
+import { unitIdToUnitIconMapper } from 'app/components/icons/icons';
 import { Text } from 'app/components/text';
 import {
   Breadcrumb,

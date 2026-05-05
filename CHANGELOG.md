@@ -1,3 +1,15 @@
+## Version 0.4.15
+
+#### May 5, 2026
+
+* [Feature] Expanded NPC village templates. NPC villages will now be created with more buildings and higher population.
+
+## Version 0.4.14
+
+#### May 4, 2026
+
+* [BugFix] Minor CSS overflow fixes.
+
 ## Version 0.4.13
 
 #### May 1, 2026

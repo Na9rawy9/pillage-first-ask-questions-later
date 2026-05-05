@@ -55,7 +55,7 @@ describe('oasis-animal-finder-controllers', () => {
         $tile_id: first.tileId,
       },
       schema: z.number(),
-    }) as number;
+    })!;
 
     expect(ratAmount).toBeGreaterThanOrEqual(1);
   });

@@ -1,3 +1,10 @@
+## Version 0.4.17
+
+#### May 6, 2026
+
+* [Feature] Introduced stacked tabs layout on desktop devices.
+* [Feature] Split Rally Point's Troop movements tab in to a Troop movements tab & Stationed units tab.
+
 ## Version 0.4.16
 
 #### May 5, 2026

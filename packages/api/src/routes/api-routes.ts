@@ -30,7 +30,6 @@ import {
   getMeFarmLists,
   removeTileFromAllPlayerFarmLists,
   removeTileFromFarmList,
-  renameFarmList,
   updateFarmList,
 } from '../controllers/farm-list-controllers';
 import {
@@ -84,6 +83,12 @@ import {
   getCollectableQuestCount,
   getQuests,
 } from '../controllers/quest-controllers';
+import {
+  deleteReport,
+  getMyReports,
+  getUnreadReportCount,
+  updateReport,
+} from '../controllers/report-controllers';
 import { getReputations } from '../controllers/reputation-controllers';
 import { getServer } from '../controllers/server-controllers';
 import {
@@ -164,7 +169,6 @@ const apiRoutes: Route[] = [
   createRoute(cloneFarmList),
   createRoute(removeTileFromFarmList),
   createRoute(removeTileFromAllPlayerFarmLists),
-  createRoute(renameFarmList),
 
   // Preferences
   createRoute(getPreferences),
@@ -202,6 +206,12 @@ const apiRoutes: Route[] = [
   // Bookmarks
   createRoute(getBookmarks),
   createRoute(updateBookmark),
+
+  // Reports
+  createRoute(getMyReports),
+  createRoute(updateReport),
+  createRoute(deleteReport),
+  createRoute(getUnreadReportCount),
 
   // Bonus Finder
   createRoute(getTilesWithBonuses),

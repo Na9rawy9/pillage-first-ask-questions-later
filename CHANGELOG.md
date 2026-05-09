@@ -1,3 +1,12 @@
+## Version 0.4.19
+
+#### May 10, 2026
+
+* [TechnicalImprovement] Toast popups and notifications will now display village name.
+* [BugFix] Fixed an issue where village founding events didn't show a correct timestamp on Events page.
+* [BugFix] Fixed an issue where NPC reputation level was incorrectly calculated, resulting in all NPC being shown as
+  with "hated" reputation level.
+
 ## Version 0.4.18
 
 #### May 8, 2026

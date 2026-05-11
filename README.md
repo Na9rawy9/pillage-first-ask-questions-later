@@ -84,7 +84,7 @@ We want to thank our [ever-increasing list of contributors](./CONTRIBUTORS.md).
 **Thank you to everybody who has already done their part in making this project come to life!**
 
 # License
-
+ 
 This project is licensed under the GNU Affero General Public License v3.0.
 
 See the [LICENSE.md](/LICENSE.md) or https://gnu.org/licenses/agpl-3.0 for details.
